@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+.login_main{}
+.login_main .logo_img{ margin:60px; text-align:center;}
+.login_main .login_ul{}
+.login_main .login_ul li{ border-bottom:1px solid #ddd; width:100%; line-height:50px; }
+.login_main .login_ul li button{ text-align:right;  padding:0 20px; line-height:30px; background:none;color:#f2b31b; }
+.login_main .submit{ margin-top:50px; margin:50px 24px 15px 24px;}
+.login_main .submit #submit{ display:block; width:100%; line-height:50px; text-align:center; font-size:1.2em; border:1px solid #f2b31b; color:#f2b31b;}
+.login_main .submit .xieyi{ line-height:40px; font-size:0.875em;}
+.login_main .submit .xieyi a{font-size:0.875em; color:#06F;}
+.login_main .submit .p_btn button{ border:none; display:block;font-size:0.875em; line-height:60px; color:#999;}
+.login_main .submit .p_btn button:first-child { float:left;  }
+.login_main .submit .p_btn button:last-child{ float:right; text-align:right;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

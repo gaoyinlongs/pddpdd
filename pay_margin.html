@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+<title>缴纳保证金</title>
+<link rel="stylesheet" href="css/public.css">
+<link rel="stylesheet" href="css/pay_margin.css">
+</head>
+<body>
+<div class="warp">
+<header>
+ <div class="header_warp">
+    <ul class="header_ul">
+     <li onclick="history.go(-1)"><img src="images/return.png"></li>
+     <li>缴纳保证金</li>
+     <li></li>
+    </ul>
+ </div>
+</header>
+<!--内容开始-->
+
+<div class="pay_margin">
+ <div class="pay_warp">
+   <p class="txt_p"><img src="images/icon_aboutpdd.png">提示：为了保证交易顺利完成，买卖双方需要按交易额的0.5‰缴纳保证金；交易开始后，在规定时间内，买方为完成支付或卖方为完成背书，导致交易失败，将扣除过失方的保证金给损失方。未缴纳保证金，不能在平台进行电票交易。</p>
+    <div class="tab_warp">
+      <table class="line_tab" width="100%" border="0" cellspacing="0">
+    <tr class="line">
+    <td colspan="2">票面金额范围</td>
+    <td width="65%" colspan="2" ><div class="bg_next" align="right">
+       <select>
+        <option>30万以内</option>
+        <option>30-50万</option>
+        <option>50-80万</option>
+        <option>80-100万</option>
+        <option>100-150万</option>
+        <option>150-200万</option>
+        <option>200-300万</option>
+        <option>300-500万</option>
+        </select>
+    </div> </td>
+   </tr>
+    <tr class="line">
+    <td colspan="2">需要缴纳保证金</td>
+    <td colspan="2" ><div  align="right">
+       <input type="number" value="">元
+    </div> </td>
+  </tr>
+  <tr class="line">
+    <td colspan="2">支付方式</td>
+    <td colspan="2" ><div class="bg_next" align="right">
+       <select>
+        <option>中国银行（2588）</option>
+        <option>工商银行（2455）</option>
+        </select>
+    </div> </td>
+  </tr>
+</table>
+ </div>
+ <div class="btn"><button type="submit">提交</button></div>
+ <p class="xieyi"><img src="images/choose.png"><img src="images/no_shoose.png"> 阅读并同意<a href="#">《票大大电票交易保证金协议》</a></p>
+</div>
+</div>
+<script src="js/jquery-1.7.1.min.js"></script>
+<script>
+$(".xieyi img ").eq(1).hide();
+$(".xieyi img").click(function(){
+	$(".xieyi img").toggle();
+	});
+</script>
+</body>
+</html>

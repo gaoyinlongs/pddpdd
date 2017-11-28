@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+.reg_main{ margin-top:30px;}
+.tab_input{ margin:0 16px;}
+.tab_input .line_bottom{ line-height:56px; border-bottom:1px solid #ddd; padding:0 16px;}
+input[type="number"]{ text-align:right;}
+.bg_icon{ background:url(../images/next.png) no-repeat center right; background-size:24px;}
+#submit{ display:block; width:90%; line-height:50px; text-align:center; margin-top:30px; margin:40px auto}
+select, option{ padding-right:28px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

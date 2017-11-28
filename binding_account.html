@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+<title>绑定银行卡</title>
+<link rel="stylesheet" href="css/public.css">
+<link rel="stylesheet" href="css/binding_account.css">
+
+</head>
+<body>
+
+<div class="warp">
+<header>
+ <div class="header_warp">
+    <ul class="header_ul">
+     <li  onclick="history.go(-1)"><img src="images/return.png"></li>
+     <li>绑定银行卡</li>
+     <li></li>
+    </ul>
+ </div>
+</header>
+<!--内容开始-->
+
+<div class="bearer_main">
+ 
+ <table class="tab_bear" width="94%" border="0" cellspacing="0">
+    <tr class="line">
+    <td  >企业全称</td>
+    <td colspan="2" >上海可印信息技术有限公司</td>
+    </tr>
+    <tr class="line">
+    <td  >信用代码</td>
+    <td colspan="2" >3547547414547845</td>
+    </tr>
+    <tr class="line">
+    <td  >开户姓名</td>
+    <td colspan="2" ><input type="text" value="请输入开户姓名"></td>
+    </tr>
+    <tr class="line">
+    <td  >身份证号</td>
+    <td ><input type="text" value="请输入开户人身份证号码"></td>
+    <td ><div class="bag_img">&nbsp;</div></td>
+    </tr>
+    <tr class="line">
+    <td >开户支行</td>
+    <td colspan="2" ><input type="text" value="请输入开户支行"></td>
+    </tr>
+    <tr class="line">
+    <td >预留电话</td>
+    <td colspan="2" ><input type="text" value="请输入预留电话"></td>
+    </tr>
+    <tr class="line">
+    <td colspan="2"><input type="text" value="请输入验证码"></td>
+    <td ><div align="right">
+      <button class="button">获取验证码</button>
+    </div></td>
+    </tr>
+</table>
+<div class="btn" onclick="javascript:window.open('site_password.html')"><button type="submit">提交</button></div>
+</div>
+</div>
+</body>
+
+</html>

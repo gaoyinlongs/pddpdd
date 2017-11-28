@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* CSS Document */
+.selling_main{ margin:10px 0 80px 0;}
+.selling_main .tab_file{ margin:10px auto; }
+.tab_file .file_first{height:80px;}
+.tab_file .file_first > td{ text-align:center; padding:0 5px; border:1px solid #eee;}
+.tab_file tr:nth-child(2){ line-height:26px; margin-top:20px;}
+.line_tab{ margin:0 auto;}
+.line_tab .line{ line-height:56px; border-bottom:1px solid #ddd;}
+.line_tab .line td .bg_next{ background:url(../images/next.png) center right no-repeat; background-size:24px;}
+select, option{ text-align:right;margin:0 20px; line-height:56px; }
+input[type="text"]{ width:auto; text-align:right; padding-right:16px;}
+.btn{ margin:30px 16px; }
+.btn button{border:1px solid #f2b31b;  color:#f2b31b; width:100%; line-height:46px;}
+input{ text-align:right;}
+
+
+
+
+
+
+

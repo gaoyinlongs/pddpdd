@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+<title>业务授权</title>
+<link rel="stylesheet" href="css/public.css">
+<link rel="stylesheet" href="css/business_license.css">
+</head>
+<body>
+
+<!--头部开始-->
+<div class="warp">
+<header>
+ <div class="header_warp">
+    <ul class="header_ul">
+     <li onclick="history.go(-1)"><img src="images/return.png">返回</li>
+     <li>业务授权</li>
+     <li></li>
+    </ul>
+ </div>
+</header>
+<!--内容开始-->
+<div class="reg_main">
+   <p class="p_color">说明：电票在线交易需创建中国银行电子账户（先下载协议模板，填写完成后再扫描上传），如无需电票交易则不用创建中国银行电子账户。</p>
+   <ul class="ul_txt">
+     <li>姓名：<span>张欢</span></li>
+     <li>手机：<span>18216668299</span></li>
+     <li>身份证号：<span>324547141424254714</span></li>
+   </ul>
+   <hr>
+  <div class="img_warp">
+    <p align="center">请上传授权协议扫描件</p>
+    <div class="float_warp">
+      <div class="lf_pater"><div class="img_box"><img src="images/pic_sx1.png"></div><p class="color">模板下载</p></div>
+      <div class="rg_pater"><div class="img_box"><img src="images/pic_sx2.png"></div><p class="color">模板下载</p></div>
+    </div>
+    <div class="clear"></div>
+  </div> 
+</div>
+<form action="binding_account.html">
+<div class="submit" >
+    <button type="submit" id="submit">提交</button>
+    <p class="xieyi"><img src="images/choose.png"><img src="images/no_shoose.png"> 阅读并同意<a href="#">《票大大用户注册协议》</a></p>
+  </div>
+ </form> 
+  <p class="ts">注：授权以上企业员工在“中国银行执剑人见证代管系统”办理资金查询、提现及充值等操作，须与授权协议上的财务人员一致。企业授权委托书扫描件必须盖有公司公章及法人签字或盖章。</p>
+</div>
+<script src="js/jquery-1.7.1.min.js"></script>
+<script>
+$(".xieyi img ").eq(1).hide();
+$(".xieyi img").click(function(){
+	$(".xieyi img").toggle();
+	});
+</script>
+</body>
+</html>

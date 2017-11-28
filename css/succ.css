@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+.reg_main{ margin-top:120px;}
+.reg_main .reg_ul li button{ text-align:right;  padding:0 20px; line-height:30px; background:none;color:#f2b31b;font-size:1em; border:none; }
+.reg_main .submit{ margin-top:50px; margin:50px 24px 15px 24px;}
+ #submit{ display:block; width:100%; line-height:50px; text-align:center; }
+
+.prompt{ width:60px; margin:0 auto;}
+.prompt img{ width:60px; margin:0 auto;}
+.reg_main p{ width:100%; text-align:center;}
+
+
+
+
+
+
+
+
+
+
+
+
+

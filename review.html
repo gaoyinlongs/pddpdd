@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+<title>银票查询复查</title>
+<link rel="stylesheet" href="css/public.css">
+<link rel="stylesheet" href="css/review.css">
+</head>
+<body>
+<div class="warp">
+<header>
+ <div class="header_warp">
+    <ul class="header_ul">
+     <li onclick="history.go(-1)"><img src="images/return.png">返回</li>
+     <li>银票查询复查</li>
+     <li></li>
+    </ul>
+ </div>
+</header>
+<!--内容开始-->
+
+<div class="selling_main">
+ 
+<table class="line_tab" width="94%" border="0" cellspacing="0">
+  <tr class="line">
+    <td colspan="2">票号</td>
+    <td width="77%" colspan="2" ><div align="right">
+       <input type="text" value="请输入16位票号">
+    </div> </td>
+  </tr>
+  <tr class="line">
+    <td colspan="2">票面金额</td>
+    <td colspan="2" ><div align="right">
+       <input  type="number" value="请输入金额">万
+    </div> </td>
+  </tr>
+  <tr class="line">
+    <td colspan="2">出票人</td>
+    <td colspan="2" ><div align="right">
+       <input type="text" value="请输入出票人全称">
+    </div> </td>
+  </tr>
+  <tr class="line">
+    <td colspan="2">收款人</td>
+    <td colspan="2" ><div align="right">
+       <input type="text" value="请输入收款人全称">
+    </div> </td>
+  </tr>
+  <tr class="line">
+    <td colspan="2">承兑行全称</td>
+    <td colspan="2" ><div align="right">
+       <input type="text" value="请输入承兑行全称">
+    </div> </td>
+  </tr>
+  <tr class="line">
+    <td colspan="2">承兑行号</td>
+    <td colspan="2" ><div align="right">
+       <input type="text" value="请输入承兑行号">
+    </div> </td>
+  </tr>
+  
+  <tr class="line">
+    <td colspan="2">出票日期</td>
+    <td colspan="2" ><div class="bg_next" align="right">
+       <input type="date" value="2017-10-28">
+    </div> </td>
+  </tr>
+  <tr class="line">
+    <td colspan="2">到期日期</td>
+    <td colspan="2" ><div class="bg_next" align="right">
+       <input type="date" value="2017-10-28">
+    </div> </td>
+  </tr>
+  <tr class="line">
+    <td colspan="2">付款金额</td>
+    <td colspan="2" ><div align="right">
+       <input type="text" value="请输入付款金额">元
+    </div> </td>
+  </tr>
+  
+</table>
+
+<div class="btn" onclick="javascript:window.open('review_result.html')"><button>提交</button></div>
+</div>
+</body>
+
+</html>

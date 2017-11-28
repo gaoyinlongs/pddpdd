@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+<title>工商查询结果</title>
+<link rel="stylesheet" href="css/public.css">
+<link rel="stylesheet" href="css/query_results.css">
+<script src="js/jquery-1.7.1.min.js"></script>
+
+<script>
+$(window).load(function() {
+	$("#status").fadeOut();
+	$("#preloader").delay(350).fadeOut("slow");});
+</script>
+</head>
+<body>
+<!--页面加载 开始-->
+<div id="preloader">
+    <div id="status">
+      <p class="center-text">加载中…<em>网速有点不给力哦!</em> </p>
+    </div>
+</div>
+<!--头部开始-->
+<div class="warp">
+<header>
+ <div class="header_warp">
+    <ul class="header_ul">
+     <li onclick="history.go(-1)"><img src="images/return.png">返回</li>
+     <li>工商查询结果</li>
+     <li></li>
+    </ul>
+ </div>
+</header>
+<!--内容开始-->
+<div class="text_warp">
+   <div class="conter_main"> 
+     <table width="100%" border="0" cellspacing="0">
+  <tr>
+    <td width="27%">企业全称：</td>
+    <td width="73%">上海可印信息技术有限公司</td>
+  </tr>
+  <tr>
+    <td>注册时间:</td>
+    <td>2010年10月10日</td>
+  </tr>
+  <tr>
+    <td>营业执照:</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>信用代码:</td>
+    <td>3545478474547141</td>
+  </tr>
+  <tr>
+    <td>公司法人：</td>
+    <td>王马妮</td>
+  </tr>
+  <tr>
+    <td>成立时间：</td>
+    <td>2010年9月1日</td>
+  </tr>
+  <tr>
+    <td>登记机构：</td>
+    <td>浦东新区市场监督管理局</td>
+  </tr>
+  <tr>
+    <td>注册资金：</td>
+    <td>1000万人民币</td>
+  </tr>
+  <tr>
+    <td>经营状态：</td>
+    <td>存续（在营、开业、在册）</td>
+  </tr>
+</table>
+  <p class="p_text"><strong>营业范围：</strong>航空设备、网络信息专业领域内的技术开发、技术转让、技术咨询、技术服务，地面代理服务，人才咨询（不得从事人才中介、职业中介），会展会务服务，旅游咨询（不得从事旅行社业务），票务代理，汽车租赁，商务咨询，法律咨询，保险咨询（不得从事金融、证券、保险业务），软件设计开发，海上、航空、公路国际货物运输代理，代理出入境检验检疫报检，从事货物及技术的进出口业务，电子商务（不得从事增值电信、金融业务）；销售计算机、软件及辅助设备，机电设备。</p> 
+   </div>
+</div>
+</div>
+</body>
+</html>

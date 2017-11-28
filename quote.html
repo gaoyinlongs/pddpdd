@@ -1,0 +1,145 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+<title>汇票详情</title>
+<link rel="stylesheet" href="css/public.css">
+<link rel="stylesheet" href="css/quote.css">
+</head>
+<body>
+<div class="warp">
+<header>
+ <div class="header_warp">
+    <ul class="header_ul">
+     <li onclick="history.go(-1)"><img src="images/return.png"></li>
+     <li>汇票报价</li>
+     <li class="pop"><img src="images/shore.png"></li>
+    </ul>
+ </div>
+</header>
+<!--内容开始-->
+
+<div class="quote_main">
+ <div class="quote_img">
+   <div class="lf_quote"></div>
+   <div class="rg_quote"></div>
+ </div>
+ <div class="clear"></div>
+ <table class="tab_bear" width="94%" border="0" cellspacing="0">
+    <tr class="line">
+    <td width="23%"><div align="right">汇票号：</div></td>
+    <td width="77%" >4247****14245784</td>
+    </tr>
+    <tr class="line">
+    <td ><div align="right">出票行：</div></td>
+    <td  >上海交通银行陆家嘴支行股份有限公司</td>
+    </tr>
+    <tr class="line">
+    <td ><div align="right">票面金额：</div></td>
+    <td>1000万</td>
+    </tr>
+    <tr class="line">
+    <td ><div align="right">到期时间：</div></td>
+    <td  >2018-09-30</td>
+    </tr>
+    <tr class="line">
+    <td ><div align="right">剩余天数：</div></td>
+    <td >360</td>
+    </tr>
+    <tr class="line">
+    <td ><div align="right">票据类型：</div></td>
+    <td  >银行承兑汇票</td>
+    </tr>
+    <tr class="line">
+    <td ><div align="right">承兑方类型：</div></td>
+    <td >国股</td>
+    </tr>
+</table>
+<hr>
+<div class="look_quote" onclick="javascript:window.open('look_quote.html')"><p>查看报价</p><img src="images/next.png"></div>
+<div class="clear"></div>
+<hr>
+<table class="tab_input" width="94%" border="0" cellspacing="0">
+    <tr class="line_bottom">
+    <td width="34%"><div align="left">年利率报价*</div></td>
+    <td width="66%" ><div align="right">
+      <input type="number"> %</div></td>
+    </tr>
+    <tr class="line_bottom">
+    <td ><div align="left">月利率报价*</div></td>
+    <td  ><div align="right">
+      <input type="number"> ‰</div></td>
+    </tr>
+    <tr class="line_bottom">
+    <td ><div align="left">每十万贴息*</div></td>
+    <td><div align="right">
+      <input type="number">元</div></td>
+    </tr>
+    <tr class="line_bottom">
+    <td ><div align="left">手续费</div></td>
+    <td ><div align="right">
+      <input type="number">元</div></td>
+    </tr>
+    <tr class="line_bottom">
+    <td ><div align="left">调整天数</div></td>
+    <td ><div align="right">
+      <input type="number">
+      天</div></td>
+    </tr>
+    <tr class="line_bottom">
+    <td ><div align="left">交易方式</div></td>
+    <td ><div align="right">现场买断</div></td>
+    </tr>
+</table>
+
+<!--计算、重置按钮-->
+<div class="repert_btn">
+  <div class="lf_btn"><button type="submit">计算</button></div>
+  <div class="rg_btn"><button type="reset">重置</button></div>
+</div>
+<div class="clear"></div>
+<ul class="resule">
+<li>贴现金额：<span>98547.56</span> 元</li>
+<li>每十万贴息：<span>547.56</span> 元</li>
+<li>平台服务费：<span>547.56</span> 元</li>
+<li>成交金额：<span>9847.56</span> 元</li>
+</ul>
+<div class="btn"><button type="submit">提交</button></div>
+</div>
+</div>
+<!--弹出层-->
+<div class="pop_up" style=" display:none;">
+  <div class="pop_warp">
+   <table class="txt_tab" width="90%" border="0" cellspacing="0">   
+   <tr>
+    <td ><div align="center"><img src="images/weixin.png"></div></td>
+    <td ><div align="center"><img src="images/pyq.png"></div></td>
+    <td ><div align="center"><img src="images/QQ.png"></div></td>
+    <td ><div align="center"><img src="images/QQkj.png"></div></td>
+   </tr>
+   <tr>
+    <td><div align="center">微信</div></td>
+    <td><div align="center">朋友圈</div></td>
+    <td><div align="center">QQ</div></td>
+    <td><div align="center">QQ空间</div></td>
+   </tr>
+</table>
+  </div>
+</div>
+
+<script src="js/jquery-1.7.1.min.js"></script>
+<script>
+  
+  $(".pop").click(function(){
+	  $(".pop_up").slideDown();
+	   });  
+  $(".txt_tab tr td").click(function(){
+	  $(".pop_up").slideUp();
+	  });
+	 
+</script>
+
+
+</body>
+</html>

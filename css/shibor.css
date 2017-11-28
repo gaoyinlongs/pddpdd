@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+.details_main{ margin:0 0 80px 0;}
+
+
+.main{ margin:16px 16px 0 16px;  border-bottom:1px solid #e2e2e2;}
+.main .det_tab{ margin:0 auto;}
+td[rowspan="2"] div{ width:40px; height:40px; background:#f2b31b; border-radius:36px; text-align:center; color:#fff; }
+.main .det_tab tr{ line-height:46px;}
+.tr_det td div{ color:#f2b31b;}
+.det_tab tr{ line-height:56px; border-bottom:1px solid #e2e2e2;}
+
+.btn{ margin:30px 16px;  }
+.btn button{border:1px solid #f2b31b;  color:#f2b31b; width:100%;line-height:50px;}
+.down >div{ color:#f2b31b;}
+.up >div{ color:grenn;}
+
+
+
+
+
+
+
+
+

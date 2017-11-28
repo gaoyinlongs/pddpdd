@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+.text_warp{ margin:20px;}
+.text_warp .conter_main{ width:100%;}
+.text_warp .conter_main table{ width:94%; margin:auto;}
+.text_warp .conter_main table tr{ line-height:28px;}
+.p_text{ line-height:28px; padding:8px 6px; background:#f4f4f4; border:1px dashed #ddd;}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+<title>行号查询</title>
+<link rel="stylesheet" href="css/public.css">
+<link rel="stylesheet" href="css/number_query.css">
+</head>
+<body>
+
+<!--头部开始-->
+<div class="warp">
+<header>
+ <div class="header_warp">
+    <ul class="header_ul">
+     <li onclick="history.go(-1)"><img src="images/return.png">返回</li>
+     <li>行号查询</li>
+     <li></li>
+    </ul>
+ </div>
+</header>
+<!--内容开始-->
+<form action="results_blank.html">
+<div class="reg_main">
+    <table class="tab_input" width="94%" border="0" cellspacing="0">
+    <tr class="line_bottom">
+    <td width="34%"><div align="left">选择银行*</div></td>
+    <td width="66%" ><div align="right" class="bg_icon">
+      <select>
+      <option>中国工商银行</option>
+      <option>中国银行</option>
+      <option>中国农业银行</option>
+      <option>光大银行</option>
+      <option>浦发银行</option>
+      <option>交通银行</option>
+      <option>上海银行</option>
+      </select></div></td>
+    </tr>
+    <tr class="line_bottom">
+    <td width="34%"><div align="left">选择身份</div></td>
+    <td width="66%" ><div align="right" class="bg_icon">
+      <select>
+      <option>上海</option>
+      <option>北京</option>
+      <option>广州</option>
+      <option>深圳</option>
+      <option>重庆</option>
+      <option>天津</option>
+      <option>南京</option>
+      </select></div></td>
+    </tr>
+</table>
+  <div class="submit">
+    <button type="submit" id="submit">提交</button>
+  </div>
+</div>
+</form>
+
+
+
+</div>
+</body>
+</html>

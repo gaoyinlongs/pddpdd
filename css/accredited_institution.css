@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+.reg_main{ margin-bottom:40px;}
+.reg_main .logo_img{ margin:60px; text-align:center;}
+.reg_main .reg_ul{ margin-top:20px;}
+.reg_main .reg_ul li{ border-bottom:1px solid #ddd; width:100%; line-height:50px; }
+.reg_main .reg_ul li button{ text-align:right;  padding:0 20px; line-height:30px; background:none;color:#f2b31b;font-size:1em; border:none; }
+.submit{ margin-top:50px; margin:50px 24px 15px 24px;}
+ .submit #submit{ display:block; width:100%; line-height:50px; text-align:center; }
+.width{ width:260px;}
+
+
+.lft_warp{ margin:20px 0 20px 20px ; float:left;}
+#preview{width:140px;height:210px;border:1px solid #ddd;overflow:hidden;background:url(../images/pic_bg1.png) no-repeat center center; background-size:140px 210px;}
+#preview #imghead { }
+
+.rig_warp{ float:right; margin:20px  20px 20px 0  ;}
+#preview1{width:140px;height:210px;border:1px solid #ddd;overflow:hidden;background:url(../images/pic_sl.png) no-repeat center center; background-size:140px 210px;}
+.rig_warp >p{ text-align:center;}
+
+
+/*身份证*/
+.sfz_warp{ margin:20px; border-top:1px solid #e2e2e2;}
+.sfz_warp .lft_sfz{ float:left; width:45%; height:120px; background:url(../images/pic_z.png) no-repeat center; background-size:100%;}
+.sfz_warp .rig_sfz{ float:right; width:45%; height:120px;background:url(../images/pic_f.png) no-repeat center; background-size:100%;}
+.sfz_warp p{ text-align:center;}
+
+
+
+
+
+
+

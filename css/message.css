@@ -1,0 +1,11 @@
+@charset "utf-8";
+/* CSS Document */
+.message_main{ margin:0px 0 80px 0;}
+.message_main .message_warp{ width:94%; margin:16px;}
+.message_warp .tab_message{ width:100%; margin:20px auto; border-bottom:1px solid #e2e2e2;}
+.message_warp .tab_message tr{ line-height:30px;}
+.tab_message tr td img{ height:40px; vertical-align:middle;}
+.text{ overflow:inherit;}
+.img{ width:40px; display:block;}
+.ft_color{ color:#999; font-size:0.875em;}
+.padding_left{ text-indent:8px;}

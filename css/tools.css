@@ -1,0 +1,24 @@
+@charset "utf-8";
+/* CSS Document */
+.tools_warp{ margin:20px 0 80px 0;}
+.tools_warp .tools_center{ margin:30px 16px;}
+.tools_warp .tools_center .tools_tab{}
+.tools_tab tr:nth-child(odd) td img{ width:56px;}
+.tools_tab tr:nth-child(even){ height:30px;}
+.tools_tab tr:nth-child(even) td{ padding-bottom:25px;}
+
+
+.footer .tf_warp{ width:100%;}
+.footer .tf_warp .ft_ul{}
+.footer .tf_warp .ft_ul li:first-child{ float:left; width:50%; background:#991bf2; color:#fff;}
+.footer .tf_warp .ft_ul li:last-child{ float:right; width:50%; background:#DEAA2D; color:#fff;}
+.footer .tf_warp .ft_ul li img{ width:80px; vertical-align:middle; padding:20px 10px 20px 10px;}
+.footer .tf_warp .ft_ul li{ font-size:1.2em;}
+
+
+
+
+
+
+
+

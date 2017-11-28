@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+<title>贴现日历</title>
+<link rel="stylesheet" href="css/public.css">
+<link rel="stylesheet" href="css/calendar.css">
+
+</head>
+<body>
+<!--页面加载 开始-->
+<!--头部开始-->
+<div class="warp">
+<header>
+ <div class="header_warp">
+    <ul class="header_ul">
+     <li onclick="history.go(-1)"><img src="images/return.png">返回</li>
+     <li>贴现日历</li>
+     <li></li>
+    </ul>
+ </div>
+</header>
+<!--内容开始-->
+<div class="reg_main">
+  <ul class="img_ul">
+  <li><img src="images/rl1.jpg"></li>
+  <li style="display:none"><img src="images/rl2.jpg"></li>
+ </ul>
+ <div class="repert_btn">
+  <div class="lf_btn"><button type="submit">一年期</button></div>
+  <div class="rg_btn"><button type="reset">半年期</button></div>
+</div>
+</div>
+<script src="js/jquery-1.7.1.min.js"></script>
+<script>
+ $(".lf_btn").click(function(){
+	 $(".img_ul li:first").show().siblings().hide();
+	 });
+$(".rg_btn").click(function(){
+	 $(".img_ul li:last").show().siblings().hide();
+	 });
+</script>
+</body>
+
+</html>

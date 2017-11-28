@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+<title>计算器</title>
+<link rel="stylesheet" href="css/public.css">
+<link rel="stylesheet" href="css/calculator.css">
+</head>
+<body>
+<div class="warp">
+<header>
+ <div class="header_warp">
+    <ul class="header_ul">
+     <li onclick="history.go(-1)"><img src="images/return.png"></li>
+     <li>计算器</li>
+     <li></li>
+    </ul>
+ </div>
+</header>
+<!--内容开始-->
+
+<div class="quote_main">
+<table class="tab_input" width="94%" border="0" cellspacing="0">
+    <tr class="line_bottom">
+    <td width="34%"><div align="left">票面金额*</div></td>
+    <td width="66%" ><div align="right">
+      <input type="number"> 万</div></td>
+    </tr>
+    <tr class="line_bottom">
+    <td width="34%"><div align="left">年利率报价*</div></td>
+    <td width="66%" ><div align="right">
+      <input type="number"> %</div></td>
+    </tr>
+    <tr class="line_bottom">
+    <td ><div align="left">月利率报价*</div></td>
+    <td  ><div align="right">
+      <input type="number"> ‰</div></td>
+    </tr>
+    <tr class="line_bottom">
+    <td ><div align="left">贴现日期*</div></td>
+    <td><div align="right" class="bg_icon">
+      <input type="date"></div></td>
+    </tr>
+    <tr class="line_bottom">
+    <td ><div align="left">到期日期*</div></td>
+    <td><div align="right" class="bg_icon">
+      <input type="date"></div></td>
+    </tr>
+    <tr class="line_bottom">
+    <td ><div align="left">每十万贴息*</div></td>
+    <td><div align="right">
+      <input type="number">元</div></td>
+    </tr>
+    <tr class="line_bottom">
+    <td ><div align="left">每十万手续费*</div></td>
+    <td><div align="right">
+      <input type="number">元</div></td>
+    </tr>
+    <tr class="line_bottom">
+    <td ><div align="left">调整天数</div></td>
+    <td ><div align="right">
+      <input type="number">天</div></td>
+    </tr>
+</table>
+
+<!--计算、重置按钮-->
+<div class="repert_btn">
+  <div class="lf_btn"><button type="submit">计算</button></div>
+  <div class="rg_btn"><button type="reset">重置</button></div>
+</div>
+<div class="clear"></div>
+<ul class="resule">
+<li>计息天数：<span>365</span> 天</li>
+<li>每十万贴息：<span>547.56</span> 元</li>
+<li>贴现利息：<span>47.56</span> 元</li>
+<li>贴现金额：<span>98547.56</span> 元</li>
+</ul>
+</div>
+</div>
+
+
+</body>
+</html>

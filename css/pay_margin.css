@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+.pay_margin{ margin:20px 0 40px 0;}
+.pay_warp{ margin:20px 16px 20px 16px;}
+.pay_warp .lf_quote{ float:left; width:46%; height:100px; background:#eee;}
+.pay_warp .rg_quote{ float:right;width:46%; height:100px; background:#eee;}
+.txt_p >img{ height:24px; vertical-align:middle; padding-right:8px;}
+.txt_p{ line-height:24px; font-size:0.875em; color:#999; margin-bottom:20px;}
+input[type="number"]{ text-align:right;}
+.tab_file .file_first{height:80px;}
+.tab_file .file_first > td{ text-align:center; padding:0 5px; border:1px solid #eee;}
+.tab_file tr:nth-child(2){ line-height:26px; margin-top:20px;}
+.line_tab{ margin:0 auto;}
+.line_tab .line{ line-height:56px; border-bottom:1px solid #ddd;}
+.line_tab .line td .bg_next{ background:url(../images/next.png) center right no-repeat; background-size:24px;}
+select, option{ text-align:right;margin:0 20px; line-height:56px; }
+button{width:100%;line-height:50px; text-align:center; border-radius:50px;font-size:1.2em;}
+.btn{ margin:40px 0 10px 0;}
+
+.xieyi{ line-height:40px; font-size:0.875em;}
+.xieyi a{font-size:0.875em; color:#06F;}
+.xieyi img{ vertical-align:middle; height:20px;}
+
+
+
+
+
+
+
+
+
+

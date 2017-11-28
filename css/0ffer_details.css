@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+.quote_main{ margin:20px 0 80px 0;}
+.quote_img{ margin:20px ;}
+.quote_img .lf_quote{ float:left; width:46%; height:100px; background:#eee;}
+.quote_img .rg_quote{ float:right;width:46%; height:100px; background:#eee;}
+
+
+.tab_bear{ margin:16px; }
+.tab_bear tr td div .img_header{ width:60px;}
+.tab_bear tr td div .img_next{ width:24px; vertical-align:middle;}
+.tab_bear tr td, .tab_bear tr td div{ font-size:0.875em;}
+
+.tab_bear .line{ line-height:36px;}
+.tab_bear tr td div .img_icon{ width:30px;vertical-align:middle; }
+input[type="number"]{ text-align:right;}
+.color{ color:#f2b31b; font-size:1em;}
+
+/*计算、重置按钮*/
+.repert_btn{ margin:16px;}
+button{width:100%;line-height:50px; text-align:center; border-radius:50px;font-size:1.2em;}
+.repert_btn .lf_btn{ width:48%; float:left;}
+.repert_btn .lf_btn button{   border:1px solid #f2b31b;  color:#f2b31b; }
+.repert_btn .rg_btn{ width:48%; float:right;}
+.repert_btn .rg_btn button{ border:1px solid #454545; color:#454545;}
+
+.position{ position:fixed;cursor:move; width:80px; bottom:100px; right:-10px;}
+
+/*弹出层*/
+.pop_up{ width:100%; height:1366px; position:fixed; top:0; background:rgba(0,0,0,0.4)}
+.pop_up .pop_warp{ width:80%; margin:160px auto 0 auto; background:#fff;}
+.pop_up .pop_warp .txt_tab{ margin:30px auto;}
+.pop_up .pop_warp .txt_tab tr{ line-height:50px; border-bottom:1px solid #e2e2e2;}
+input{ text-align:right; width:115px;}
+h5{ text-align:center; width:100%;}
+.pop_btn{ width:90%; margin:0 auto ; }
+.pop_btn .lf_pop{ float:left; width:48%;padding-bottom:30px;}
+.pop_btn .rg_pop{ float:right;width:48%;padding-bottom:30px; }
+.pop_btn .rg_pop button{border-color:#454545; color:#454545;}
+
+
+
+

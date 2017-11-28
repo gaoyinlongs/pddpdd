@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*内容*/
+.index_coneter{ margin:16px auto 80px auto;}
+.index_coneter .warp_txt{}
+.index_coneter .warp_txt .tab_centent{ margin:10px auto;}
+.tab_centent tr{ line-height:40px;}
+.tab_centent tr td div{ font-size:0.875em;}
+td[rowspan="1"]{ background:#f2b31b; width:40px; height:40px; color:#fff; border-radius:40px; text-align:center;}
+.tab_centent tr .title{ text-indent:10px; font-size:1em;}
+.color{ color:#f2b31b;}
+.tab_centent .two_tr >td{ color:#999;}
+.tab_centent .three_tr, .tab_centent .two_tr{ line-height:28px;}
+.tab_centent .three_tr td{ font-size:1em;}
+.font_size >div{ font-size:0.75em;}
+ 
+

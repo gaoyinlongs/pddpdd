@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+.security_main{ margin:0px 0 80px 0;}
+.security_main .top_warp{ width:100%; background:#454545;}
+.security_main .top_warp .tab_top{ width:94%; margin:0 16px;}
+.security_main .top_warp .tab_top tr{ line-height:40px;}
+.security_main .top_warp .tab_top tr td{ text-align:center;}
+.security_main .top_warp .tab_top tr:first-child  td{ font-size:1em; color:#fff; padding-top:15px;}
+.security_main .top_warp .tab_top tr:last-child  td{ font-size:1.5em; color:#f2b31b; padding-bottom:10px;}
+.security_main .prompting{ margin:16px; line-height:24px; color:#888;}
+.security_main .prompting >img{ width:24px; vertical-align:middle; padding-right:8px;}
+
+.lab >table{ width:94%; margin:16px auto;}
+.lab >table tr{ line-height:56px; border-bottom:1px solid #e2e2e2;}
+.bg_img{ background:url(../images/next.png) center right no-repeat; background-size:24px; padding-right:28px;}
+input { width:90%; text-align:right;}
+
+
+
+/*按钮*/
+.repert_btn{ margin:40px 16px;}
+button{width:100%;line-height:50px; text-align:center; border-radius:50px;font-size:1.2em;}
+.repert_btn .lf_btn{ width:48%; float:left;}
+.repert_btn .lf_btn button{   border:1px solid #f2b31b;  color:#f2b31b; }
+.repert_btn .rg_btn{ width:48%; float:right;}
+.repert_btn .rg_btn button{ border:1px solid #454545; color:#454545;}
+
+.xieyi{ line-height:40px; font-size:0.875em; margin:10px 16px;}
+.xieyi a{font-size:0.875em; color:#06F;}
+.xieyi img{ vertical-align:middle; height:20px;}
+
+
+
+
+
+
+
+
+
+

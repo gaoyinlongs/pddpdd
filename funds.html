@@ -1,0 +1,114 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+<title>资金方</title>
+<link rel="stylesheet" href="css/public.css">
+<link rel="stylesheet" href="css/bearer.css">
+
+</head>
+<body>
+
+<div class="warp">
+<header>
+ <div class="header_warp">
+    <ul class="header_ul">
+     <li>&nbsp;</li>
+     <li>资金方</li>
+     <li><a href="setting.html"><img src="images/setting.png"></a></li>
+    </ul>
+ </div>
+</header>
+<!--内容开始-->
+
+<div class="bearer_main">
+ <div class="bearer_header">
+   <table class="tab_bear" width="94%" border="0" cellspacing="0">
+  <tr>
+    <td width="21%" rowspan="2"><div align="left"><img class="img_header" src="images/header.png"></div></td>
+    <td width="42%" height="26">182****8299</td>
+    <td width="30%" rowspan="2"><div align="right">个人中心</div></td>
+    <td width="7%" rowspan="2"><div align="right"><img class="img_next" src="images/next.png"></div></td>
+  </tr>
+  <tr>
+    <td>Faith</td>
+    </tr>
+</table>
+  <hr>
+ </div>
+ <table class="tab_bear" width="94%" border="0" cellspacing="0">
+    <tr class="line" onclick="javascript:window.open('my_quotation.html')">
+    <td width="10%"><div align="left"><img class="img_icon" src="images/hpbj.png"></div></td>
+    <td width="73%" >我的报价</td>
+    <td width="17%"><div align="right"><img class="img_next" src="images/next.png"></div></td>
+    </tr>
+    <tr class="line" onclick="javascript:window.open('my_order.html')">
+    <td width="10%"><div align="left"><img class="img_icon" src="images/wddd.png"></div></td>
+    <td width="73%" >我的订单</td>
+    <td width="17%"><div align="right"><img class="img_next" src="images/next.png"></div></td>
+    </tr>
+    <tr class="line" onclick="javascript:window.open('message.html')">
+    <td width="10%"><div align="left"><img class="img_icon" src="images/xxzx.png"></div></td>
+    <td width="73%" >消息中心</td>
+    <td width="17%"><div align="right"><img class="img_next" src="images/next.png"></div></td>
+    </tr>
+    <tr class="line" onclick="javascript:window.open('account_management.html')">
+    <td width="10%"><div align="left"><img class="img_icon" src="images/zhgl.png"></div></td>
+    <td width="73%" >账户管理</td>
+    <td width="17%"><div align="right"><img class="img_next" src="images/next.png"></div></td>
+    </tr>
+    
+    <tr class="line">
+    <td width="10%"><div align="left"><img class="img_icon" src="images/tjhy.png"></div></td>
+    <td width="73%" >推荐好友</td>
+    <td width="17%"><div align="right"><img class="img_next" src="images/next.png"></div></td>
+    </tr>
+ 
+    <tr class="line toggle">
+    <td width="10%"><div align="left"><img class="img_icon" src="images/yhqh.png"></div></td>
+    <td width="73%" >角色切换</td>
+    <td width="17%"><div align="right"><img class="img_next up" src="images/next.png"><img class="down" src="images/down.png"></div></td>
+    </tr>
+    <tr class="line show" onclick="javascript:window.open('bearer.html')">
+    <td width="10%"></td>
+    <td width="73%" >持票方</td>
+    <td width="17%"></td>
+    </tr>
+    <tr class="line show" onclick="javascript:window.open('agent.html')">
+    <td width="10%"></td>
+    <td width="73%" >经纪人</td>
+    <td width="17%"></td>
+    </tr>
+</table>
+</div>
+</div>
+<footer class="footer">
+<table class="tab_footer" width="100%" border="0" cellspacing="0">
+  <tr>
+    <td><img onclick="javascript:window.open('supporters.html')" src="images/py_h.png"></td>
+    <td><img onclick="javascript:window.open('buy_ticket.html')" src="images/mp_h.png"></td>
+    <td><img onclick="javascript:window.open('selling_tickets.html')" src="images/mmp_h.png"></td>
+    <td><img onclick="javascript:window.open('tools.html')" src="images/gj_h.png"></td>
+    <td><img onclick="javascript:window.open('my.html')" src="images/wd_y.png"></td>
+  </tr>
+  <tr class="foot_last_tr">
+    <td onclick="javascript:window.open('supporters.html')">票源</td>
+    <td onclick="javascript:window.open('buy_ticket.html')">机构报价</td>
+    <td onclick="javascript:window.open('selling_tickets.html')">卖票</td>
+    <td onclick="javascript:window.open('tools.html')">工具</td>
+    <td class="active_font" onclick="javascript:window.open('my.html')">我的</td>
+  </tr>
+</table>
+</footer>
+
+<script src="js/jquery-1.7.1.min.js"></script>
+<script>
+$(".show, .down").hide();
+$(".toggle").click(function(){
+  $(".show, .down, .up").toggle();
+	});
+</script>
+</body>
+
+</html>

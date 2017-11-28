@@ -1,0 +1,112 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+<title>机构认证</title>
+<link rel="stylesheet" href="css/public.css">
+<link rel="stylesheet" href="css/accredited_institution.css">
+</head>
+<body>
+
+<!--头部开始-->
+<div class="warp">
+<header>
+ <div class="header_warp">
+    <ul class="header_ul">
+     <li onclick="history.go(-1)"><img src="images/return.png">返回</li>
+     <li>机构认证</li>
+     <li></li>
+    </ul>
+ </div>
+</header>
+<!--内容开始-->
+<form action="business_license.html">
+<div class="reg_main">
+  <ul class="reg_ul">
+    <li><input class="width" type="text" placeholder="请输入机构全称"></li>
+  </ul>
+ <div class="lft_warp"> 
+  <div id="preview">
+    <img id="imghead" width=140 height=210 border=0 >
+    <input type="file" onchange="previewImage(this)" / style=" opacity:0; width:140px; height:210px;"> 
+  </div>
+  <p>上传营业执照正本</p>
+  </div> 
+   <div class="rig_warp"> 
+  <div id="preview1">
+    <img id="imghead1" width=140 height=210 border=0 >
+  </div>
+  <p>示例</p>
+  </div> 
+</div>
+<div class="clear"></div>
+<div class="sfz_warp">
+  <div class="lft_sfz"></div>
+  <div class="rig_sfz"></div>
+  <div class="clear"></div>
+  <p>上传法人身份证正反面</p>
+</div>
+<div class="submit" onclick="javascript:window.open('business_license.html')">
+    <button type="submit" id="submit">提交</button>
+  </div>
+</form>
+</div>
+<script type="text/javascript">
+        function previewImage(file)
+        {
+          var MAXWIDTH  = 260; 
+          var MAXHEIGHT = 180;
+          var div = document.getElementById('preview');
+          if (file.files && file.files[0])
+          {
+              div.innerHTML ='<img id=imghead>';
+              var img = document.getElementById('imghead');
+              img.onload = function(){
+                var rect = clacImgZoomParam(MAXWIDTH, MAXHEIGHT, img.offsetWidth, img.offsetHeight);
+                img.width  =  rect.width;
+                img.height =  rect.height;
+                img.style.marginTop = rect.top+'px';
+              }
+              var reader = new FileReader();
+              reader.onload = function(evt){img.src = evt.target.result;}
+              reader.readAsDataURL(file.files[0]);
+          }
+          else //兼容IE
+          {
+            var sFilter='filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod=scale,src="';
+            file.select();
+            var src = document.selection.createRange().text;
+            div.innerHTML = '<img id=imghead>';
+            var img = document.getElementById('imghead');
+            img.filters.item('DXImageTransform.Microsoft.AlphaImageLoader').src = src;
+            var rect = clacImgZoomParam(MAXWIDTH, MAXHEIGHT, img.offsetWidth, img.offsetHeight);
+            status =('rect:'+rect.top+','+rect.left+','+rect.width+','+rect.height);
+            div.innerHTML = "<div id=divhead style='width:"+rect.width+"px;height:"+rect.height+"px;margin-top:"+rect.top+"px;"+sFilter+src+"\"'></div>";
+          }
+        }
+        function clacImgZoomParam( maxWidth, maxHeight, width, height ){
+            var param = {top:0, left:0, width:width, height:height};
+            if( width>maxWidth || height>maxHeight )
+            {
+                rateWidth = width / maxWidth;
+                rateHeight = height / maxHeight;
+                 
+                if( rateWidth > rateHeight )
+                {
+                    param.width =  maxWidth;
+                    param.height = Math.round(height / rateWidth);
+                }else
+                {
+                    param.width = Math.round(width / rateHeight);
+                    param.height = maxHeight;
+                }
+            }
+             
+            param.left = Math.round((maxWidth - param.width) / 2);
+            param.top = Math.round((maxHeight - param.height) / 2);
+            return param;
+        }
+</script> 
+</body>
+</html>

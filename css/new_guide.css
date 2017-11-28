@@ -1,0 +1,9 @@
+@charset "utf-8";
+/* CSS Document */
+.new_main{ margin:20px 0 40px 0;}
+.new_werp{ margin:20px ;}
+.new_werp .title{ text-align:center; line-height:30px; font-size:1.2em; color:#f2b31b; margin-top:20px;}
+.new_werp .content_p{ text-indent:32px; line-height:26px; margin-top:15px;}
+.new_werp .bgcolor{ padding:8px; background:#f2f2f2; border:1px dashed #ddd; text-indent:0;}
+.new_werp .bgcolor span{ color:#666;}
+.new_werp h5{ line-height:20px; border-left:8px solid #888; margin:30px 0 10px 0; text-indent:8px;}

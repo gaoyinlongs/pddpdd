@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+.reg_main{ margin:10px 0 20px 0;}
+.reg_main .p_color, .ts{ font-size:0.75em; color:#f2b31b; padding:0 16px;}
+
+.reg_main  .ul_txt{ margin:16px;}
+.reg_main  .ul_txt li{ line-height:50px; border-bottom:1px solid #e2e2e2;}
+
+.float_warp .lf_pater{ float:left; margin-left:20px; width:40%;}
+.img_warp >p{ line-height:28px; font-size:0.75em;}
+.float_warp .rg_pater{ float:right; margin-right:20px; width:40%;}
+.color{ width:100%; color:#f2b31b; text-align:center; line-height:28px;}
+
+ .submit{ margin:30px 24px 5px 24px;}
+ .submit #submit{ display:block; width:100%; line-height:50px; text-align:center; }
+ .submit .xieyi{ line-height:40px; font-size:0.875em;}
+ .submit .xieyi a{font-size:0.875em; color:#06F;}
+ .submit .xieyi img{ vertical-align:middle; height:20px;}
+.ts{ margin-bottom:40px;}
+
+
+
+
